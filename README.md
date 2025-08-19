@@ -109,11 +109,9 @@ The project follows a modular structure to keep the code organized and maintaina
 ```
 Agentorithm/
 ├── agents/
-│   ├── __pycache__/
 │   ├── code_executor_agent.py
 │   └── problem_solver.py
 ├── config/
-│   ├── __pycache__/
 │   ├── constant.py
 │   ├── docker_executor.py
 │   ├── docker_utils.py
@@ -121,7 +119,6 @@ Agentorithm/
 ├── dir/
 │   └── ... (working directory for the code executor)
 ├── team/
-│   ├── __pycache__/
 │   └── dsa_team.py
 ├── .env
 ├── app.py
